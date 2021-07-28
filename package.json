@@ -8,7 +8,7 @@
     "server:build": "tsc --project tsconfig.server.json",
     "client:build": "vite build",
     "storybook:build": "build-storybook -o dist/storybook",
-    "build": "npm run server:build && npm run client:build && npm run storybook:build",
+    "build": "npm run server:build && npm run client:build",
     "serve": "vite preview",
     "prepare": "husky install",
     "test": "tsc && prettier --check . && eslint . && stylelint \"**/*.css\"",
@@ -16,7 +16,8 @@
     "start": "node dist/server.js"
   },
   "engines": {
-    "node": "16.4.2"
+    "node": "16.4.2",
+    "npm": "7.18.1"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
