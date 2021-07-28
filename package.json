@@ -15,6 +15,9 @@
     "storybook": "start-storybook -p 6006",
     "start": "node dist/server.js"
   },
+  "engines": {
+    "node": "16.4.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@storybook/addon-actions": "^6.3.2",
